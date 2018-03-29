@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomCircleMenu">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="colorChosenSector" format="color"/>
+        <attr name="colorMainBorder" format="color"/>
+        <attr name="colorInnerCircle" format="color"/>
+        <attr name="widthMainBorder" format="float"/>
+
+        <attr name="circleRadius" format="integer"/>
+        <attr name="numberOfSectors" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomProgressView">
+        <attr name="backgroundSmallSquaresColor" format="color"/>
+        <attr name="backgroundBigSquareColor" format="color"/>
+        <attr name="lengthSquareSide" format="integer"/>
+        <attr name="distanceBetweenSquares" format="integer"/>
+    </declare-styleable>
+</resources>

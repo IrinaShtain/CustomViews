@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shtainyky.customview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.shtainyky.customview.views.CustomCircleMenu
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            app:backgroundColor="@color/colorAccent"
+            app:circleRadius="250"
+            app:colorChosenSector="@android:color/holo_blue_light"
+            app:colorInnerCircle="@color/colorPrimaryDark"
+            app:colorMainBorder="@color/colorPrimary"
+            app:numberOfSectors="6"
+            app:widthMainBorder="15.0"
+            />
+
+        <ImageButton
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:contentDescription="@string/result"/>
+
+        <Button
+            android:id="@+id/bt_test_progress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:text="@string/test_progress"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
